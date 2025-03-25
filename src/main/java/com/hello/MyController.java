@@ -9,7 +9,7 @@ public class MyController {
 	
 	@GetMapping("/hello")
 	public ResponseEntity<?> getHello(){
-		return ResponseEntity.ok("Hello ! endpoint called. ");
+		return ResponseEntity.ok("Hello ! endpoint called.. ");
 	}
 	
 	
